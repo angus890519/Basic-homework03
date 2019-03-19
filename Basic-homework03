@@ -15,6 +15,5 @@ int main(void)
     m=height/100; //1公尺=100公分 
     BMI=weight/(m*m); //BMI公式 
     printf("BMI = %.2f\n\n",BMI); //%[輸出最小寬度][.精度] 
- 	system("pause");
- 	return 0;
-}
+ 	system("pause");//暫停視窗    
+ 	return 0;//回傳值為0  
